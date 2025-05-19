@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TikTok Downloader Web</title>
+</head>
+<body>
+    <h1>TikTok Downloader (Web)</h1>
+    <form id="downloadForm" method="post" action="/api/download">
+        <input type="text" name="url" placeholder="TikTok URL" required>
+        <button type="submit">Download</button>
+    </form>
+    <div id="result"></div>
+    <script>
+        document.getElementById('downloadForm').addEventListener('submit', async function(e) {
+            e.preventDefault();
+            const formData = new FormData(this);
+            const res = await fetch('/api/download', {
+                method: 'POST',
+                body: formData
+            });
+            const text = await res.text();
+            document.getElementById('result').innerText = text;
+        });
+    </script>
+</body>
+</html>
