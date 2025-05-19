@@ -5,6 +5,8 @@ VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TikTok Downloader", "src\TikTok Downloader.csproj", "{33037B65-91C7-4289-ABA1-69D46E402375}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TikTokDownloader.Web", "src\WebApp\TikTokDownloader.Web.csproj", "{1C744803-A7C3-4E10-AD79-B5D12C1592E8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		All|Any CPU = All|Any CPU
@@ -20,8 +22,16 @@ Global
 		{33037B65-91C7-4289-ABA1-69D46E402375}.DefaultBuild|Any CPU.ActiveCfg = Debug|Any CPU
 		{33037B65-91C7-4289-ABA1-69D46E402375}.DefaultBuild|Any CPU.Build.0 = Debug|Any CPU
 		{33037B65-91C7-4289-ABA1-69D46E402375}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{33037B65-91C7-4289-ABA1-69D46E402375}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
+                {33037B65-91C7-4289-ABA1-69D46E402375}.Release|Any CPU.Build.0 = Release|Any CPU
+                {1C744803-A7C3-4E10-AD79-B5D12C1592E8}.All|Any CPU.ActiveCfg = Release|Any CPU
+                {1C744803-A7C3-4E10-AD79-B5D12C1592E8}.All|Any CPU.Build.0 = Release|Any CPU
+                {1C744803-A7C3-4E10-AD79-B5D12C1592E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+                {1C744803-A7C3-4E10-AD79-B5D12C1592E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+                {1C744803-A7C3-4E10-AD79-B5D12C1592E8}.DefaultBuild|Any CPU.ActiveCfg = Debug|Any CPU
+                {1C744803-A7C3-4E10-AD79-B5D12C1592E8}.DefaultBuild|Any CPU.Build.0 = Debug|Any CPU
+                {1C744803-A7C3-4E10-AD79-B5D12C1592E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+                {1C744803-A7C3-4E10-AD79-B5D12C1592E8}.Release|Any CPU.Build.0 = Release|Any CPU
+        EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection

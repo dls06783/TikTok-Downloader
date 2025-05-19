@@ -150,4 +150,12 @@ Have you encountered a bug or have a feature in mind? Check out the [open issues
 ### **Important:**  
 Please report bugs and issues in **English**. Submissions in other languages may be ignored and closed.
 
+<!-- Web Interface -->
+## 🌐 Web Interface (Experimental)
+
+This repository now includes a minimal web app located in `src/WebApp`.
+Run it with `dotnet run --project src/WebApp` and open `http://localhost:5000` in your browser.
+Currently the `/api/download` endpoint only echoes the requested URL. The actual download logic still needs to be integrated.
+
+
 <p align="right"><a href="#tiktok-downloader">Back to top</a></p>
